@@ -1,3 +1,4 @@
+import SocialButton from "./SocialButton"
 const Registro = () => {
     return (
         <div className="registro pt-2 pb-2 mt-2 ">
