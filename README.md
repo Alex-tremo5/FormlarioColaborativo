@@ -4,4 +4,3 @@ Participantes:
 - Alejandro Díaz
 - Paula Quintero
 
-https://alex-tremo5.github.io/FormlarioColaborativo/
