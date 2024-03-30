@@ -1,13 +1,11 @@
-import './App.css'
-import Registro from './components/Registro'
+import "./App.css";
+import Registro from "./components/Registro";
 function App() {
-  
-
   return (
     <>
-     <Registro />
+      <Registro />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

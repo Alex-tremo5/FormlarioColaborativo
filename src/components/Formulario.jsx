@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Alert from "./Alert";
 
-
 const Formulario = () => {
   const [data, setData] = useState({
     nombre: "",
@@ -39,8 +38,8 @@ const Formulario = () => {
       return;
     }
     setPasswordSame(true);
-    setSuccess(true)
-    
+    setSuccess(true);
+
     console.log(data);
   };
 
@@ -101,12 +100,8 @@ const Formulario = () => {
         <button type="submit" className="signUp btn btn-success w-100">
           Registrarse
         </button>
-        {error && (
-          <Alert isError={true} message="Debe completar los campos" />
-        )}
-        {success && (
-          <Alert isError={false} message="Registro exitoso" />
-        )}
+        {error && <Alert isError={true} message="Debe completar los campos" />}
+        {success && <Alert isError={false} message="Registro exitoso" />}
       </form>
     </div>
   );

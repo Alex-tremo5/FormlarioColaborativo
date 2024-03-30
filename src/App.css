@@ -4,7 +4,6 @@
   margin: auto;
   background-color: white;
   padding: 30px;
-
 }
 .registro h1 {
   padding-top: 20px;
@@ -16,11 +15,10 @@
   margin-bottom: 10px;
 }
 
-.text{
+.text {
   text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
-  
 }
 .social {
   display: flex;
@@ -35,8 +33,4 @@
   width: 60px;
   border-radius: 50%;
   background-color: white;
-  
 }
-
-
-
