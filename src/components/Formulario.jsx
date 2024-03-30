@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Alert from "./Alert";
-// import { faL } from "@fortawesome/free-solid-svg-icons";
+
 
 const Formulario = () => {
   const [data, setData] = useState({
@@ -46,7 +46,7 @@ const Formulario = () => {
 
   return (
     <div className="container">
-      <h4 className="m-2">O usa tu email para registrarte</h4>
+      <h6 className="m-2 text">O usa tu email para registrarte</h6>
       <form className="formulario" onSubmit={validarInfo}>
         <div className="mb-3">
           <input
@@ -98,7 +98,7 @@ const Formulario = () => {
           )}
         </div>
 
-        <button type="submit" className="btn btn-primary w-100">
+        <button type="submit" className="signUp btn btn-success w-100">
           Registrarse
         </button>
         {error && (

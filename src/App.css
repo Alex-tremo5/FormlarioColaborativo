@@ -1,9 +1,42 @@
 .registro {
-  border: solid 2px black;
+  border: solid 1px rgb(195, 195, 195);
   border-radius: 5%;
   margin: auto;
   background-color: white;
+  padding: 30px;
+
 }
 .registro h1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
   text-align: center;
 }
+
+.signUp {
+  margin-bottom: 10px;
+}
+
+.text{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  
+}
+
+
+

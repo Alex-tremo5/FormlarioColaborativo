@@ -8,7 +8,7 @@ const Alert = (props) => {
     alertType = "alert-success"
   }
   return (
-    <div className={`alert ${alertType} mt-2 text-cente`} role="alert">
+    <div className={`alert ${alertType} mt-2 text-center`} role="alert">
       {props.message}
     </div>
   )
